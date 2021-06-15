@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/electrician"
+        android:title="Electrician"
+        android:icon="@drawable/flash"/>
+    <item android:id="@+id/carpenter"
+        android:title="Carpenter"
+        android:icon="@drawable/hammer"/>
+    <item android:icon="@drawable/paint"
+        android:id="@+id/painter"
+        android:title="Painter"/>
+</group>
+    <item android:title="information">
+        <menu>
+            <item android:id="@+id/account"
+                android:checkable="true"
+                android:title="Account"
+                android:icon="@drawable/person"/>
+            <item android:id="@+id/order"
+                android:title="Order"
+                android:checkable="true"
+                android:icon="@drawable/history"/>
+            <item android:title="Logout"
+                android:id="@+id/logout1"
+                android:icon="@drawable/logout"/>
+
+        </menu>
+    </item>
+
+</menu>
